@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pluginstrument>
+    <aircraft>unknown</aircraft>
+    <author>whartsell</author>
+    <compatibleFSX>false</compatibleFSX>
+    <compatibleP3D>true</compatibleP3D>
+    <compatibleXPL>false</compatibleXPL>
+    <configVersion>1</configVersion>
+    <description></description>
+    <pluginInterfaceVersion>100</pluginInterfaceVersion>
+    <prefHeight>240</prefHeight>
+    <prefWidth>320</prefWidth>
+    <type>CGR-30P</type>
+    <uuid>5f42358f-e394-4b6b-ab92-144b2a0fd4b1</uuid>
+    <version>1</version>
+</pluginstrument>
