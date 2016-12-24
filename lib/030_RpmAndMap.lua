@@ -19,6 +19,7 @@ function RpmAndMap:new(o)
 		rpm_green = txt_add("2060","-fx-font-family:sans-serif; -fx-font-size:35px; -fx-fill: green; -fx-font-weight:bold; -fx-text-alignment:right;",195,55,80,36),
 	}
 	
+	return o
 end
 
 --arc is 130 degrees
@@ -57,3 +58,4 @@ function RpmAndMap:anuninciators_refresh()
 	end
 	
 end
+

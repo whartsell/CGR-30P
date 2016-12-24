@@ -1,15 +1,15 @@
-rpmAndMap = RpmAndMap:new()
 
+mainPage = MainPage:new()
 
 function pageRefresh()
-	RpmAndMap:refresh()
+	mainPage:refresh()
 end
 
 function anunciatorRefresh()
-	RpmAndMap:anuninciators_refresh()
+	mainPage:anunciators_refresh()
 end
 
 refreshTimers = {
-	rpmandMap = timer_start(30,30,pageRefresh),
-	anunciator = timer_start(500,500,anunciatorRefresh)
+	mainPage = timer_start(0,30,pageRefresh),
+	anunciator = timer_start(0,500,anunciatorRefresh)
 }
