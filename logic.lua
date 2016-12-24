@@ -2,6 +2,7 @@
 mainPage = MainPage:new()
 
 function pageRefresh()
+	--print("pageRefresh")
 	mainPage:refresh()
 end
 

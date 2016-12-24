@@ -12,15 +12,17 @@ function MainPage:new(o)
 	self.components = {}
 	self.components.rpmAndMap = RpmAndMap:new()
 	self.components.barGraphAnalyzer = BarGraphAnalyzer:new()
-	print("init complete")
 	
 	return o
 end	
 
 function MainPage:refresh()
+	--print("MainPage:refresh")
 	self.components.rpmAndMap:refresh()
+	self.components.barGraphAnalyzer:refresh()
 end
 
 function MainPage:anunciators_refresh()
 	self.components.rpmAndMap:anuninciators_refresh()
+	
 end
