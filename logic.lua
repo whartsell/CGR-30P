@@ -3,11 +3,11 @@ mainPage = MainPage:new()
 
 function pageRefresh()
 	--print("pageRefresh")
-	mainPage:refresh()
+	mainPage.refresh()
 end
 
 function anunciatorRefresh()
-	mainPage:anunciators_refresh()
+	mainPage.anunciators_refresh()
 end
 
 refreshTimers = {

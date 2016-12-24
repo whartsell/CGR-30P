@@ -1,28 +1,30 @@
 MainPage = {}
 
-function MainPage:new(o)
-	o = o or {}
-	setmetatable(o,self)
-	self.__index = self
+function MainPage.new()
+	local self = {}
 	
-	self.images = {
+	local images = {
 		background = img_add_fullscreen("MainScreen.png"),
 	}
 	
-	self.components = {}
-	self.components.rpmAndMap = RpmAndMap:new()
-	self.components.barGraphAnalyzer = BarGraphAnalyzer:new()
+	local components = {
+		rpmAndMap = RpmAndMap.new(),
+		barGraphAnalyzer = BarGraphAnalyzer.new(),
+	}
+
+	function self.refresh()
+		--print("MainPage:refresh")
+		components.rpmAndMap.refresh()
+		components.barGraphAnalyzer.refresh()
+	end
 	
-	return o
+	function self.anunciators_refresh()
+		components.rpmAndMap.anuninciators_refresh()
+	end
+	
+	return self
 end	
 
-function MainPage:refresh()
-	--print("MainPage:refresh")
-	self.components.rpmAndMap:refresh()
-	self.components.barGraphAnalyzer:refresh()
-end
 
-function MainPage:anunciators_refresh()
-	self.components.rpmAndMap:anuninciators_refresh()
-	
-end
+
+
