@@ -21,9 +21,9 @@ function RpmAndMap.new()
 	-- greenline ends at 43 deg and 2550 rpm
 	-- redline starts at 49 deg and 2625 rpm
 	function self.refresh()
-		local map = EDC33:safeGetData('map')
-		local rpm = EDC33:safeGetData('rpm')
-		local rpm_anunciator = EDC33:safeGetData("rpmAnunciator")
+		local map = Edc33.safeGetData('map')
+		local rpm = Edc33.safeGetData('rpm')
+		local rpm_anunciator = Edc33.safeGetData("rpmAnunciator")
 		local map_angle = var_cap((130/32)*map -65,-65,65)
 		local rpm_angle = 0
 		
@@ -47,7 +47,7 @@ function RpmAndMap.new()
 	end
 	
 	function self.anuninciators_refresh()
-		local rpm_anunciator = EDC33:safeGetData("rpmAnunciator")
+		local rpm_anunciator = Edc33.safeGetData("rpmAnunciator")
 		if (rpm_anunciator == 2) then
 			blink = not blink
 		end

@@ -1,22 +1,33 @@
-EDC33 = SimData:new()
+EDC33 = {}
 
-function EDC33:anunciators()
-	if self.data.rpm ~= nil then
-		local rpm = self.data.rpm
-		local rpm_anunciator = 0
-		
-		if ((2550 < rpm) and (rpm <2625)) then
-			rpm_anunciator = 1
-		
-		elseif (rpm >= 2625) then
-			rpm_anunciator = 2
+
+function EDC33.new()
+	local self = SimData.new()
+
+	function self.anunciators()
+		if self.data.rpm ~= nil then
+			local rpm = self.data.rpm
+			local rpm_anunciator = 0
+			
+			if ((2550 < rpm) and (rpm <2625)) then
+				rpm_anunciator = 1
+			
+			elseif (rpm >= 2625) then
+				rpm_anunciator = 2
+			end
+			self.data.rpmAnunciator = rpm_anunciator
 		end
-		self.data.rpmAnunciator = rpm_anunciator
 	end
+
+	
+	
+	return self
 end
 
 
 
+
+Edc33 = EDC33.new()
 
 
 
@@ -54,8 +65,8 @@ function EDC33Callback(rpm,map,cht,egt)
 		data.egt6 = 0
 	end
 	
-	EDC33:Update(data)
-	EDC33:anunciators()
+	Edc33.Update(data)
+	Edc33.anunciators()
 end
 
 fsx_variable_subscribe("GENERAL ENG RPM:1", "Rpm",
