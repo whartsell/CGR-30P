@@ -3,6 +3,15 @@ EDC33 = {}
 
 function EDC33.new()
 	local self = SimData.new()
+	local scan_rate = 5000
+	self.current_cylinder = 0
+	self.cyl = {}
+	self.cyl[1] = {offset = 0}
+	self.cyl[2] = {offset = math.random(-30,30)}
+	self.cyl[3] = {offset = math.random(-30,30)}
+	self.cyl[4] = {offset = math.random(-30,30)}
+	self.cyl[5] = {offset = math.random(-30,30)}
+	self.cyl[6] = {offset = math.random(-30,30)}
 
 	function self.anunciators()
 		if self.data.rpm ~= nil then
@@ -19,7 +28,14 @@ function EDC33.new()
 		end
 	end
 
+	local function scanCylinder()
+		self.current_cylinder = (self.current_cylinder % 6) + 1
+		--print("refreshScan done")
+	end
 	
+	local timers = {
+		cylinderScan = timer_start(0,scan_rate,scanCylinder),
+	}
 	
 	return self
 end
@@ -36,35 +52,19 @@ function EDC33Callback(rpm,map,cht,egt)
 	data.rpm = rpm
 	data.map = map
 	-- the random shouldnt be applied every update.  should be more intelligent
-	data.cht1 = cht
-	if cht > 0 then
-		data.cht2 = math.random(-30,30) + cht
-		data.cht3 = math.random(-30,30) + cht
-		data.cht4 = math.random(-30,30) + cht
-		data.cht5 = math.random(-30,30) + cht
-		data.cht6 = math.random(-30,30) + cht
-	else 
-		data.cht2 = 0
-		data.cht3 = 0
-		data.cht4 = 0
-		data.cht5 = 0
-		data.cht6 = 0
-	end
-	data.egt1 = (egt - 491.67) *5/9 -- fsx provides rankine so we convert to celsius
-		if egt > 0 then
-		data.egt2 = math.random(-30,30) + data.egt1
-		data.egt3 = math.random(-30,30) + data.egt1
-		data.egt4 = math.random(-30,30) + data.egt1
-		data.egt5 = math.random(-30,30) + data.egt1
-		data.egt6 = math.random(-30,30) + data.egt1
-	else 
-		data.egt2 = 0
-		data.egt3 = 0
-		data.egt4 = 0
-		data.egt5 = 0
-		data.egt6 = 0
-	end
 	
+	for i = 1,6 do
+		if cht > 0 then
+			Edc33.cyl[i].cht = Edc33.cyl[i].offset + cht -- in celsius
+		else 
+			Edc33.cyl[i].cht = 0
+		end
+		if egt > 0 then
+			Edc33.cyl[i].egt = Edc33.cyl[i].offset + (egt - 491.67) *5/9 -- fsx provides rankine so we convert to celsius
+		else 
+			Edc33.cyl[i].egt = 0
+		end
+	end	
 	Edc33.Update(data)
 	Edc33.anunciators()
 end

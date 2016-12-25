@@ -2,41 +2,35 @@ BarGraphAnalyzer = {}
 
 function BarGraphAnalyzer.new()
 	local self = {}
-	
+
 	local images = {
 		overlay = img_add_fullscreen("barMatrixOverlay.png"),
+		chtBox = img_add("CHT_Box.png",31,121,12,12),
 	}
 	
-	local components = {
-		cyl1 = BarGraph.new(27,140),
-		cyl2 = BarGraph.new(49.2,140),
-		cyl3 = BarGraph.new(71.4,140),
-		cyl4 = BarGraph.new(93.6,140),
-		cyl5 = BarGraph.new(115.8,140),
-		cyl6 = BarGraph.new(138.2,140),
-	}
+	local components = {}
+		components.cyl = {
+			BarGraph.new(27,140),
+			BarGraph.new(49.2,140),
+			BarGraph.new(71.4,140),
+			BarGraph.new(93.6,140),
+			BarGraph.new(115.8,140),
+			BarGraph.new(138.2,140),
+		}
+	-- order matters so this has to go last
+	images.chtRedline = img_add("CHT_Limit.png",35,176,119,1)
 		
 		
 	function self.refresh()
-		local cht1 = Edc33.safeGetData("cht1")
-		local cht2 = Edc33.safeGetData("cht2")
-		local cht3 = Edc33.safeGetData("cht3")
-		local cht4 = Edc33.safeGetData("cht4")
-		local cht5 = Edc33.safeGetData("cht5")
-		local cht6 = Edc33.safeGetData("cht6")
-		local egt1 = Edc33.safeGetData("egt1")
-		local egt2 = Edc33.safeGetData("egt2")
-		local egt3 = Edc33.safeGetData("egt3")
-		local egt4 = Edc33.safeGetData("egt4")
-		local egt5 = Edc33.safeGetData("egt5")
-		local egt6 = Edc33.safeGetData("egt6")
-		components.cyl1.refresh(cht1,egt1)
-		components.cyl2.refresh(cht2,egt2)
-		components.cyl3.refresh(cht3,egt3)
-		components.cyl4.refresh(cht4,egt4)
-		components.cyl5.refresh(cht5,egt5)
-		components.cyl6.refresh(cht6,egt6)
+		--print("BarGraph.refresh")
+		local cylOffset = 22
+		for i = 1,6 do
+			components.cyl[i].refresh(Edc33.cyl[i].cht,Edc33.cyl[i].egt)
+		end
+		move(images.chtBox,31 + ((Edc33.current_cylinder -1) * cylOffset),nil,nil,nil)
+		--print("BarGraph.refresh done")
 	end
+	
 	
 	return self
 		

@@ -20,8 +20,8 @@ function BarGraph.new(x,y)
 	}
 
 	function self.refresh(cht,egt)
-		local cht = cht*9/5 + 32
-		local egt = egt*9/5 + 32
+		local cht = cht*9/5 + 32 --to F
+		local egt = egt*9/5 + 32 --to F
 		local egt_delta_y = var_cap((egt-max_egt) * (75/(max_egt - min_egt)),-74,0)
 		local cht_delta_y = var_cap((cht-max_cht) * (39/(max_cht - min_cht))-36,-74,0)
 		move(images.egt,nil,y-egt_delta_y,nil,nil)

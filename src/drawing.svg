@@ -26,11 +26,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="113.93644"
-     inkscape:cy="19.288875"
+     inkscape:zoom="2.8"
+     inkscape:cx="209.38533"
+     inkscape:cy="-12.977444"
      inkscape:document-units="px"
-     inkscape:current-layer="layer9"
+     inkscape:current-layer="layer11"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1177"
@@ -56,7 +56,8 @@
      id="layer2"
      inkscape:label="background"
      style="display:inline"
-     transform="translate(0,-812.36216)">
+     transform="translate(0,-812.36216)"
+     sodipodi:insensitive="true">
     <image
        y="753.18195"
        x="-34"
@@ -71,7 +72,7 @@
      inkscape:label="Screen"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline"
+     style="display:none"
      transform="translate(0,-812.36216)">
     <rect
        style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -101,152 +102,244 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="EGTCHT InfoBar"
+     style="display:inline">
+    <text
+       transform="translate(0,-812.36216)"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="172.231"
+       y="1048.1852"
+       id="text4261"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\TempBar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4263"
+         x="172.231"
+         y="1048.1852"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">CHT:</tspan></text>
+    <text
+       transform="translate(0,-812.36216)"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="141.12109"
+       y="1048.3622"
+       id="text4265"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\TempBar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4267"
+         x="141.12109"
+         y="1048.3622"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">°F</tspan></text>
+    <text
+       transform="translate(0,-812.36216)"
+       sodipodi:linespacing="125%"
+       id="text4269"
+       y="1048.3622"
+       x="265.12109"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\TempBar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'"
+         y="1048.3622"
+         x="265.12109"
+         id="tspan4271"
+         sodipodi:role="line">°F</tspan></text>
+    <g
+       transform="translate(0,-812.36216)"
+       style="display:inline"
+       id="g4250"
+       inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\TempBar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect4240"
+         width="320"
+         height="2"
+         x="0.32632121"
+         y="1028.3622"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\RPMandMAP.png" />
+      <rect
+         transform="matrix(0,-1,1,0,0,0)"
+         inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\RPMandMAP.png"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         y="159.32632"
+         x="-1050.3622"
+         height="2"
+         width="22"
+         id="rect4244"
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="34.779297"
+       y="235.81079"
+       id="text4257"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\TempBar.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4259"
+         x="34.779297"
+         y="235.81079"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">EGT:</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="RPM and MAP"
-     style="display:inline"
+     style="display:none"
      transform="translate(0,-812.36216)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;line-height:125%;font-family:Courier;-inkscape-font-specification:Courier;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="78.204895"
+       y="863.64862"
+       id="text4188"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\RPMandMAP.png"><tspan
+         sodipodi:role="line"
+         id="tspan4190"
+         x="78.204895"
+         y="863.64862"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, ';letter-spacing:-1px">MP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Microsoft New Tai Lue';-inkscape-font-specification:'Microsoft New Tai Lue Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="131.96307"
+       y="895.29004"
+       id="text4198"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\RPMandMAP.png"><tspan
+         sodipodi:role="line"
+         id="tspan4200"
+         x="131.96307"
+         y="895.29004"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:'Microsoft New Tai Lue';-inkscape-font-specification:'Microsoft New Tai Lue Bold';fill:#ffffff">InHg</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, ';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="217.47058"
+       y="863.64862"
+       id="text4579"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\RPMandMAP.png"><tspan
+         sodipodi:role="line"
+         id="tspan4581"
+         x="217.47058"
+         y="863.64862"
+         style="letter-spacing:-1px">RPM</tspan></text>
+    <rect
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect4154"
+       width="320"
+       height="2"
+       x="0.32632121"
+       y="904.63867"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\RPMandMAP.png" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       y="-161.32632"
+       x="905.276"
+       height="2"
+       width="148.57695"
+       id="rect4620"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\RPMandMAP.png" />
+    <path
+       id="circle4636"
+       style="fill:none;fill-opacity:0.4322581;stroke:#00ff00;stroke-width:6.25;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:type="arc"
+       sodipodi:cx="90.563538"
+       sodipodi:cy="902.27197"
+       sodipodi:rx="67.507637"
+       sodipodi:ry="67.507637"
+       sodipodi:start="3.5709436"
+       sodipodi:end="5.841617"
+       d="M 29.183155,874.16984 A 67.507637,67.507637 0 0 1 90.151158,834.7656 67.507637,67.507637 0 0 1 151.59601,873.42205"
+       sodipodi:open="true"
+       inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\RPMandMAP.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <g
-       id="g4767"
+       id="g4725"
        inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\RPMandMAP.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        transform="translate(-211.72092,407.27645)">
-      <text
-         inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\RPMandMAP.png"
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         sodipodi:linespacing="125%"
-         id="text4188"
-         y="456.37219"
-         x="289.92581"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;line-height:125%;font-family:Courier;-inkscape-font-specification:Courier;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, ';letter-spacing:-1px"
-           y="456.37219"
-           x="289.92581"
-           id="tspan4190"
-           sodipodi:role="line">MP</tspan></text>
-      <text
-         inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\RPMandMAP.png"
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         sodipodi:linespacing="125%"
-         id="text4198"
-         y="488.01358"
-         x="343.68399"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Microsoft New Tai Lue';-inkscape-font-specification:'Microsoft New Tai Lue Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10px;font-family:'Microsoft New Tai Lue';-inkscape-font-specification:'Microsoft New Tai Lue Bold';fill:#ffffff"
-           y="488.01358"
-           x="343.68399"
-           id="tspan4200"
-           sodipodi:role="line">InHg</tspan></text>
-      <text
-         inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\RPMandMAP.png"
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         sodipodi:linespacing="125%"
-         id="text4579"
-         y="456.37219"
-         x="429.1915"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, ';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="letter-spacing:-1px"
-           y="456.37219"
-           x="429.1915"
-           id="tspan4581"
-           sodipodi:role="line">RPM</tspan></text>
-      <rect
-         inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\RPMandMAP.png"
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         y="497.36221"
-         x="212.04724"
-         height="2"
-         width="320"
-         id="rect4154"
-         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none" />
-      <rect
-         inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\RPMandMAP.png"
-         transform="matrix(0,1,-1,0,0,0)"
-         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
-         id="rect4620"
-         width="148.57695"
-         height="2"
-         x="497.99954"
-         y="-373.04724"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <path
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\RPMandMAP.png"
-         sodipodi:open="true"
-         d="m 240.90407,466.89338 a 67.507637,67.507637 0 0 1 60.968,-39.40424 67.507637,67.507637 0 0 1 61.44486,38.65645"
-         sodipodi:end="5.841617"
-         sodipodi:start="3.5709436"
-         sodipodi:ry="67.507637"
-         sodipodi:rx="67.507637"
-         sodipodi:cy="494.99551"
-         sodipodi:cx="302.28445"
-         sodipodi:type="arc"
-         style="fill:none;fill-opacity:0.4322581;stroke:#00ff00;stroke-width:6.25;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="circle4636" />
       <g
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\whartsell\Air manager\instruments\5f42358f-e394-4b6b-ab92-144b2a0fd4b1\resources\RPMandMAP.png"
-         id="g4725">
-        <g
-           id="g4683"
-           style="display:inline;stroke:#00ff00">
-          <path
-             sodipodi:nodetypes="cc"
-             inkscape:connector-curvature="0"
-             id="path4672"
-             d="m 431.56807,429.10085 c 20.6275,-4.59189 42.21507,0.7405 58.33209,14.40873"
-             style="display:inline;fill:none;fill-opacity:0.4322581;stroke:#00ff00;stroke-width:6.25;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <path
-             sodipodi:nodetypes="cc"
-             inkscape:connector-curvature="0"
-             id="path4674"
-             d="m 384.85653,466.89338 c 8.79702,-19.21436 26.08405,-33.20063 46.71154,-37.79253"
-             style="display:inline;fill:none;fill-opacity:0.4322581;stroke:#00ff00;stroke-width:6.25;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        </g>
-        <a
-           style="display:inline"
-           id="a4716">
-          <g
-             id="g4712">
-            <path
-               style="display:inline;fill:none;fill-opacity:0.4322581;stroke:#ff0000;stroke-width:6.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               d="m 496.40486,449.82409 c 2.19824,2.4414 4.21239,5.03672 6.02797,7.76421"
-               id="path4677"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="cc" />
-            <path
-               sodipodi:open="true"
-               d="m 498.7002,452.51158 a 67.507637,67.507637 0 0 1 8.56918,13.63401"
-               sodipodi:end="5.841617"
-               sodipodi:start="5.6025069"
-               sodipodi:ry="67.507637"
-               sodipodi:rx="67.507637"
-               sodipodi:cy="494.99551"
-               sodipodi:cx="446.23691"
-               sodipodi:type="arc"
-               style="display:inline;fill:#ff00ff;fill-opacity:0.4322581;stroke:#ff0000;stroke-width:6.25;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               id="path4690" />
-          </g>
-        </a>
+         style="display:inline;stroke:#00ff00"
+         id="g4683">
+        <path
+           style="display:inline;fill:none;fill-opacity:0.4322581;stroke:#00ff00;stroke-width:6.25;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 431.56807,429.10085 c 20.6275,-4.59189 42.21507,0.7405 58.33209,14.40873"
+           id="path4672"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="display:inline;fill:none;fill-opacity:0.4322581;stroke:#00ff00;stroke-width:6.25;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 384.85653,466.89338 c 8.79702,-19.21436 26.08405,-33.20063 46.71154,-37.79253"
+           id="path4674"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
       </g>
-      <rect
-         style="display:inline;fill:none;fill-opacity:0.39053255;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         id="rect4764"
-         width="320"
-         height="240"
-         x="212.04724"
-         y="406.18109" />
+      <a
+         id="a4716"
+         style="display:inline">
+        <g
+           id="g4712">
+          <path
+             sodipodi:nodetypes="cc"
+             inkscape:connector-curvature="0"
+             id="path4677"
+             d="m 496.40486,449.82409 c 2.19824,2.4414 4.21239,5.03672 6.02797,7.76421"
+             style="display:inline;fill:none;fill-opacity:0.4322581;stroke:#ff0000;stroke-width:6.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             id="path4690"
+             style="display:inline;fill:#ff00ff;fill-opacity:0.4322581;stroke:#ff0000;stroke-width:6.25;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             sodipodi:type="arc"
+             sodipodi:cx="446.23691"
+             sodipodi:cy="494.99551"
+             sodipodi:rx="67.507637"
+             sodipodi:ry="67.507637"
+             sodipodi:start="5.6025069"
+             sodipodi:end="5.841617"
+             d="m 498.7002,452.51158 a 67.507637,67.507637 0 0 1 8.56918,13.63401"
+             sodipodi:open="true" />
+        </g>
+      </a>
     </g>
+    <rect
+       y="813.45752"
+       x="0.32632121"
+       height="240"
+       width="320"
+       id="rect4764"
+       style="display:inline;fill:none;fill-opacity:0.39053255;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -256,9 +349,24 @@
      transform="translate(0,-812.36216)" />
   <g
      inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="CylBox"
+     style="display:none">
+    <path
+       transform="translate(0,-812.36216)"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:6.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       d="m 52.199996,933.3469 0,12 12.00001,0 0,-12 -12.00001,0 z m 1,1 10.00001,0 0,10 -10.00001,0 0,-10 z"
+       id="rect4210"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\whartsell\Documents\GitHub\CGR-30P\resources\CHT_Box.png"
+       inkscape:export-xdpi="92.987564"
+       inkscape:export-ydpi="92.987564" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="Bar Graph Background"
-     style="display:inline">
+     style="display:none">
     <text
        transform="translate(0,-812.36216)"
        xml:space="preserve"
@@ -388,7 +496,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="Bars"
-     style="display:inline">
+     style="display:none">
     <rect
        style="display:inline;fill:#00fcff;fill-opacity:1;stroke:none;stroke-width:6.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect4165"
@@ -484,49 +592,67 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="CHT Limit"
-     style="display:inline">
+     style="display:none">
     <rect
-       style="display:inline;fill:#800000;fill-opacity:1;stroke:none;stroke-width:6.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       style="display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:6.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect4183"
        width="10"
        height="0.75761443"
        x="35"
-       y="176.24239" />
+       y="176.24239"
+       inkscape:export-filename="C:\Users\whartsell\Documents\GitHub\CGR-30P\resources\CHT_Limit.png"
+       inkscape:export-xdpi="92.987602"
+       inkscape:export-ydpi="92.987602" />
     <rect
        y="176.24239"
        x="57.200001"
        height="0.75761443"
        width="10"
        id="rect4237"
-       style="display:inline;fill:#800000;fill-opacity:1;stroke:none;stroke-width:6.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+       style="display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:6.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       inkscape:export-filename="C:\Users\whartsell\Documents\GitHub\CGR-30P\resources\CHT_Limit.png"
+       inkscape:export-xdpi="92.987602"
+       inkscape:export-ydpi="92.987602" />
     <rect
-       style="display:inline;fill:#800000;fill-opacity:1;stroke:none;stroke-width:6.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       style="display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:6.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect4239"
        width="10"
        height="0.75761443"
        x="79.400002"
-       y="176.24239" />
+       y="176.24239"
+       inkscape:export-filename="C:\Users\whartsell\Documents\GitHub\CGR-30P\resources\CHT_Limit.png"
+       inkscape:export-xdpi="92.987602"
+       inkscape:export-ydpi="92.987602" />
     <rect
-       style="display:inline;fill:#800000;fill-opacity:1;stroke:none;stroke-width:6.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       style="display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:6.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect4241"
        width="10"
        height="0.75761443"
        x="101.6"
-       y="176.24239" />
+       y="176.24239"
+       inkscape:export-filename="C:\Users\whartsell\Documents\GitHub\CGR-30P\resources\CHT_Limit.png"
+       inkscape:export-xdpi="92.987602"
+       inkscape:export-ydpi="92.987602" />
     <rect
-       style="display:inline;fill:#800000;fill-opacity:1;stroke:none;stroke-width:6.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       style="display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:6.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect4243"
        width="10"
        height="0.75761443"
        x="123.8"
-       y="176.24239" />
+       y="176.24239"
+       inkscape:export-filename="C:\Users\whartsell\Documents\GitHub\CGR-30P\resources\CHT_Limit.png"
+       inkscape:export-xdpi="92.987602"
+       inkscape:export-ydpi="92.987602" />
     <rect
-       style="display:inline;fill:#800000;fill-opacity:1;stroke:none;stroke-width:6.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       style="display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:6.25;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect4245"
        width="7.8000002"
        height="0.75761443"
        x="146.2"
-       y="176.24239" />
+       y="176.24239"
+       inkscape:export-filename="C:\Users\whartsell\Documents\GitHub\CGR-30P\resources\CHT_Limit.png"
+       inkscape:export-xdpi="92.987602"
+       inkscape:export-ydpi="92.987602" />
   </g>
   <g
      inkscape:groupmode="layer"
